@@ -189,6 +189,33 @@
   font-size: 16px;
   font-weight: 400px;
 }
+.button-1{
+  color: #FFFFFF;
+  font-size: 16px;
+  font-weight: 600;
+  background-color: #5490F5;
+  border-radius: 8px;
+  padding: 11px 20px;
+  border: none;
+}
+.button-2{
+  color: #FFFFFF;
+  font-size: 16px;
+  font-weight: 600;
+  background-color: #09A15C;
+  border-radius: 8px;
+  padding: 11px 20px;
+  border: none;
+}
+.button-3{
+  color: #FFFFFF;
+  font-size: 16px;
+  font-weight: 600;
+  background-color: #FFC239;
+  border-radius: 8px;
+  padding: 11px 20px;
+  border: none;
+}
 /* Recent News */
 .recent{
   margin: 80px 160px;
@@ -320,7 +347,8 @@
 }
 .bottom-img {
   text-align: center;
-  gap: 24px;
   margin-top: 32px;
-
+}
+a{
+  gap: 24px;
 }
