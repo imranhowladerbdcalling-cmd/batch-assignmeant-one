@@ -115,6 +115,7 @@
     margin: 17px 160px;
     padding: 80px 100px;
     gap: 64px;
+    border-radius: 24px;
  }
  .bannar-h4{
     font-size: 24px;
@@ -133,6 +134,38 @@
     background-color: #006A50;
     border-radius: 8px;
     
+ }
+ /* pillars-title */
+ .pillars{
+  margin: 80px 160px;
+  /* width: 1280px; */
+ }
+ .pillars-title{
+  font-size: 40px;
+  font-weight: bold;
+  padding-bottom: 32px;
+ }
+ .pillars-box{
+  display: flex;
+  gap: 24px;
+  /* margin-top: 32px; */
+ }
+ .pillars-box-teax{
+  background-color:#dabfbf;
+  border-radius: 16px;
+  padding: 24px;
+  width: 320px;
+ }
+ .pillars-img{
+  margin-bottom: 24px;
+ }
+ .pillars-h3{
+  font-size: 20px;
+  font-weight: bold;
+ }
+ ..pillars-p{
+  font-size: 16px;
+  font-weight: 400;
  }
  /* future style */
  .future{
@@ -253,7 +286,7 @@
   font-size: 16;
   font-weight: 400;
 }
-..contain-p{
+.contain-p{
   font-size: 16;
   font-weight: 400;
 }
@@ -296,6 +329,7 @@
   margin: 12px;
 }
 .ip-btn{
+  margin: 0 auto;
   text-align: center;
 }
 .donate-today-teax{
@@ -349,6 +383,12 @@
   text-align: center;
   margin-top: 32px;
 }
-a{
-  gap: 24px;
+.f{
+  margin-right: 20px;
+}
+.i{
+  margin-right: 20px;
+}
+.x{
+  margin-right:20px ;
 }
